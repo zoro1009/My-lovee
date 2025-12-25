@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff4e6;
+  text-align: center;
+}
+
+.page {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 25px;
+  background: #ff6f91;
+  color: white;
+  font-size: 16px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4f79;
+}
+
+.photo {
+  width: 260px;
+  border-radius: 20px;
+  margin: 25px 0;
+  transition: opacity 0.6s ease;
+}

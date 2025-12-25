@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For You 🎁</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<div class="page" id="page1">
+  <h1>Hey You 🎄</h1>
+  <p>I wanted to do a tiny something this Christmas.</p>
+  <button onclick="goToPage('page2')">Open Your Gift 🎁</button>
+</div>
+
+<!-- PAGE 2 (3 PHOTOS + SONG 1) -->
+<div class="page hidden" id="page2">
+  <h2>Songs That Feel Like Christmas With You 🎶</h2>
+
+  <img id="photo1" class="photo" src="assets/images/p1.jpg">
+
+  <button onclick="playSong1()">▶ Play Song</button>
+  <button onclick="goToPage('page3')">Continue ✨</button>
+
+  <audio id="song1" src="assets/music/song1.mp3"></audio>
+</div>
+
+<!-- PAGE 3 (2 PHOTOS + SONG 2) -->
+<div class="page hidden" id="page3">
+  <h2>One More Thing 💌</h2>
+
+  <img id="photo2" class="photo" src="assets/images/p4.jpg">
+
+  <button onclick="playSong2()">▶ Play Song</button>
+  <button onclick="goToPage('page1')">See Again 🔁</button>
+
+  <audio id="song2" src="assets/music/song2.mp3"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
